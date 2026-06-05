@@ -2,18 +2,6 @@
 
 A Telegram bot and backend service for finding Morgenshtern tracks by a word or lyric fragment.
 
-## Demo
-
-Add 2-3 product screenshots here (for example: bot chat, backend response, pgAdmin with the songs table).
-
-Markdown example:
-
-```md
-![Bot chat demo](docs/screenshots/bot-chat.png)
-![Backend response demo](docs/screenshots/backend-search.png)
-![Database demo](docs/screenshots/pgadmin-songs.png)
-```
-
 ## Product Context
 
 ### End users
