@@ -1,0 +1,44 @@
+-- CREATE TABLE IF NOT EXISTS songs (
+--     id SERIAL PRIMARY KEY,
+--     title TEXT NOT NULL,
+--     artist TEXT NOT NULL,
+--     search_text TEXT NOT NULL DEFAULT '',
+--     lyrics_text TEXT,
+--     lyrics_source TEXT,
+--     lyrics_source_url TEXT,
+--     lyrics_loaded_at TIMESTAMP
+-- );
+
+-- TRUNCATE TABLE songs RESTART IDENTITY;
+
+-- INSERT INTO songs (title, artist, search_text) VALUES
+-- ('Cristal & МОЁТ', 'Morgenshtern', ''),
+-- ('Cadillac', 'Morgenshtern', ''),
+-- ('El Problema', 'Morgenshtern', ''),
+-- ('ICE', 'Morgenshtern', ''),
+-- ('Yung Hefner', 'Morgenshtern', ''),
+-- ('SHOW', 'Morgenshtern', ''),
+-- ('DINERO', 'Morgenshtern', ''),
+-- ('PABLO', 'Morgenshtern', ''),
+-- ('Новый Мерин', 'Morgenshtern', ''),
+-- ('Последняя Любовь', 'Morgenshtern', ''),
+-- ('12', 'Morgenshtern', ''),
+-- ('Мне пох', 'Morgenshtern', ''),
+-- ('DOMOFON', 'Morgenshtern', ''),
+-- ('Lollipop', 'Morgenshtern', ''),
+-- ('Family', 'Morgenshtern', ''),
+-- ('WATAFUK?!', 'Morgenshtern', ''),
+-- ('Guf died', 'Morgenshtern', ''),
+-- ('Я когда-нибудь уйду', 'Morgenshtern', ''),
+-- ('TURN IT ON!', 'Morgenshtern', ''),
+-- ('Новый Бентли', 'Morgenshtern', ''),
+-- ('SHEIKH', 'Morgenshtern', ''),
+-- ('ARISTOCRAT', 'Morgenshtern', ''),
+-- ('Почему?', 'Morgenshtern', ''),
+-- ('AUF', 'Morgenshtern', ''),
+-- ('POMADA', 'Morgenshtern', ''),
+-- ('SILHOUETTE', 'Morgenshtern', ''),
+-- ('BOUNTY', 'Morgenshtern', ''),
+-- ('Insomnia', 'Morgenshtern', ''),
+-- ('DISS ON MY HEAD', 'Morgenshtern', ''),
+-- ('Leck', 'Morgenshtern', '');
