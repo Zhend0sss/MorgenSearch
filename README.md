@@ -2,6 +2,8 @@
 
 A Telegram bot and backend service for finding Morgenshtern(recognized in the Russian Federation as a foreign agent) tracks by a word or lyric fragment.
 
+> **Important:** Due to copyright restrictions, the public repository does not store the full lyrics of the artist. In the import files and database dumps, the original lyrics have been replaced with placeholders.
+
 ## Product Context
 
 ### End users
@@ -60,13 +62,13 @@ TELEGRAM_BOT_TOKEN=YOUR_REAL_BOT_TOKEN
 docker compose up --build
 ```
 
-5. Load lyrics into the database (if `AUTO_SYNC_LYRICS=false`):
+5. **Load real lyrics into the database**. Since the repository provides only placeholders (due to copyright), you must find and add the actual lyrics for the search to function properly. You can manually update the dataset or try using the built-in sync endpoint to fetch them from the `lyrics.ovh` API:
 
 ```bash
 curl -X POST "http://localhost:8000/admin/sync-lyrics?limit=50&force=true"
 ```
 
-6. Open Telegram and send the bot a word or phrase, for example: `money`.
+6. Open Telegram and send the bot a word or phrase that exists in the loaded lyrics.
 7. The bot will return a list of matching tracks.
 
 Additionally:

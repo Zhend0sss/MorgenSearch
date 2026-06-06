@@ -18,8 +18,8 @@ def q(value: str) -> str:
 
 for row in rows:
     title = (row.get("title") or "").strip()
-    lyrics = (row.get("lyrics_text") or "").strip()
-    if not title or not lyrics:
+    lyrics = f"текст песни {title}"
+    if not title:
         continue
 
     search_text = " ".join(lyrics.lower().split())
