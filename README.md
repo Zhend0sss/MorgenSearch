@@ -1,6 +1,6 @@
 # MorgenSearch
 
-A Telegram bot and backend service for finding Morgenshtern tracks by a word or lyric fragment.
+A Telegram bot and backend service for finding Morgenshtern(recognized in the Russian Federation as a foreign agent) tracks by a word or lyric fragment.
 
 ## Product Context
 
