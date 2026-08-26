@@ -11,12 +11,12 @@ A Telegram bot and backend service for finding Morgenshtern(recognized in the Ru
 - Telegram users who want to quickly find Morgenshtern tracks by lyrics.
 - Developers/instructors who need an educational example of a microservice architecture with a bot, API, and database.
 
-### Problem that your product solves for end users
+### Problem that the product solves for end users
 
 - A user remembers a word or lyric line but does not remember the track title.
 - Manual search across all tracks is time-consuming.
 
-### Your solution
+### The solution
 
 - The user sends text to the Telegram bot.
 - The bot calls the backend endpoint `/search?q=...`.
